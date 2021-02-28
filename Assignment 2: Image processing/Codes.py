@@ -1,4 +1,4 @@
-#activate image processing in the conda environment
+#activate image processing 
 conda activate image_process
 
 #navigate to the folder which has the image
@@ -56,8 +56,6 @@ plt.show()
 brain_image_sigma30=ndimage.gaussian_filter(brain_image, sigma=30)
 plt.imshow(brain_image_sigma30, cmap='Greys_r')
 plt.show()
-
-
 plt.hist(brain_image_sigma30, cmap='Greys_r')
 plt.show()
 
